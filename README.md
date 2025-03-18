@@ -1,24 +1,34 @@
 # Manual-Testing-E-Commerce-Evershop-
-This repository contains the test cases, execution reports, and defect logs for testing the dynamic search and checkout functionality of the Evershop shoe-selling platform. The project involves:
+This repository contains the test cases, execution reports, and defect logs for testing the dynamic search and checkout functionality of the Evershop shoe-selling platform. The project covers various testing techniques, including UI and API testing, to ensure that the platform delivers a seamless and error-free shopping experience.
 
-Dynamic Search Functionality:
-Test cases to verify search behavior when using various keywords and specific text inputs as per client requirements.
-Validation of search results, response time, and accuracy of product listings.
+Testing Features
+🛒 Dynamic Search Functionality
 
-Checkout Process Testing:
-Verification of adding products to the cart, updating quantities, and proceeding with the checkout.
-Validation of cart items, price calculations, and order submission.
+Validated the search behavior using various keywords and text inputs, ensuring search results are accurate and relevant.
+Tested edge cases, including empty search terms, partial words, and special characters to ensure the robustness of the search engine.
+Verified response time and performance of the search feature under different conditions (e.g., large data sets).
+🛍️ Checkout Process Testing
 
-UI & API Testing:
+Ensured smooth product addition to the cart, updated cart quantities, and verified the proper functioning of the checkout process.
+Checked cart item accuracy, price calculation, and tax application during the checkout process.
+Tested various payment methods to ensure proper payment gateway integration.
+Testing Types
+UI Testing:
+Conducted manual testing of the user interface to ensure a responsive and user-friendly design. Verified the layout, buttons, navigation, and overall user experience on multiple devices.
 
-Executed manual UI tests to verify the user experience and interface for both search and checkout features.
-Performed API testing using Postman to validate backend functionality and ensure proper communication between the client and server.
-Defect Logging and Reporting:
-Documented and tracked defects found during testing. Detailed bug reports and feedback were provided to the development team for timely fixes.
+API Testing:
 
+Used Postman to perform comprehensive testing of the backend API services responsible for the search, cart, and checkout functionalities.
+Verified API responses, including correct status codes, data accuracy, and error handling.
+Defect Logging and Reporting
+🐞 Defect Reporting:
+Logged defects found during testing using a bug-tracking system and detailed each defect with steps to reproduce, screenshots, and severity levels.
+Tracked defect resolution and provided feedback to developers for fixes.
 Tools Used:
+🖥️ Postman for API Testing
+🧑‍💻 Manual UI Testing
+📋 Bug Reporting and Defect Logging
+Test Case & Execution:
+Test cases were designed to cover all critical paths of the search and checkout functionality. Execution was performed on the Evershop demo site to validate the feature’s behavior, and all results are documented in the respective execution reports.
 
-Postman for API Testing
-Manual UI Testing
-Bug Reporting with detailed logs
-This repository showcases my manual testing skills and demonstrates how I approach testing new features on an e-commerce platform.
+
